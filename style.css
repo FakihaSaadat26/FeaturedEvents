@@ -1,0 +1,97 @@
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1503428593586-e225b39bddfe?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      color: white;
+      padding: 160px 0;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+    }
+
+    .hero h1 {
+      font-size: 3.8rem;
+      font-weight: bold;
+      position: relative;
+      z-index: 2;
+    }
+
+    #searchInput {
+      height: 70px;
+      font-size: 22px;
+      border-radius: 40px;
+      padding: 10px 25px;
+      border: 3px solid #7c4dff;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .card {
+      border-radius: 20px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      background: #fff;
+      overflow: hidden;
+      border: none;
+    }
+
+    .card:hover { 
+      transform: scale(1.04);
+      box-shadow: 0 16px 30px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn-primary {
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      border: none;
+      transition: background 0.4s ease;
+    }
+button nav:hover {
+       transform: scale(1.04);
+      box-shadow: 0 16px 30px rgba(0, 0, 0, 0.2);
+}
+    .btn-primary:hover {
+      background: linear-gradient(to right, #4a00e0, #8e2de2);
+    }
+
+    .section-title {
+      font-size: 2.4rem;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      color: #222;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: '';
+      width: 80px;
+      height: 4px;
+      background: #7c4dff;
+      display: block;
+      margin: 12px auto 0;
+      border-radius: 5px;
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 20px 0;
+      text-align: center;
+    }
+  
