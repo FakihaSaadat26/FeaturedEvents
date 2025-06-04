@@ -26,3 +26,9 @@ Animate.css & AOS.js for animations
 
 Font Awesome for icons
 
+🚀 Getting Started
+Clone or download the repository.
+
+Open i.html in any modern web browser.
+
+View and interact with the event cards, or use the search bar.
